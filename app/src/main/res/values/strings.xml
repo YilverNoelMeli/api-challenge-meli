@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">challenge-api-meli</string>
+    
+    <style name="textTitle">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="textPrice">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="textGray">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="textSearch">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:hint">Buscar en Mercado Libre</item>
+        <item name="android:textSize">14sp</item>
+    </style>
 </resources>

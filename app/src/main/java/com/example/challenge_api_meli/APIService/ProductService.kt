@@ -9,20 +9,21 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface ProductService {
+
     @Headers("Authorization: Bearer ${API_KEY}")
     @GET("sites/MCO/domain_discovery/search")
     suspend fun getCategoryId(
         @Query("limit") Limit: Int = 1,
         @Query("q") categoruName: String
-    ): List<Category>
+    ): Response<List<Category>>
 
     @Headers("Authorization: Bearer ${API_KEY}")
     @GET("/highlights/MCO/category/{section_id}")
-    suspend fun getHighlightList(@Path("section_id") section: String): HighLightList
+    suspend fun getHighlightList(@Path("section_id") section: String): Response <HighLightList>
 
 
     @Headers("Authorization: Bearer ${API_KEY}")
     @GET("/items")
-    suspend fun getMultiGet(@Query("ids") listItems: String): List<ItemsResponse>
+    suspend fun getMultiGet(@Query("ids") listItems: String): Response<List<ItemsResponse>>
 
 }
