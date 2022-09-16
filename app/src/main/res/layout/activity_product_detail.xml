@@ -211,7 +211,7 @@
             android:paddingHorizontal="24dp"
             android:paddingTop="17dp"
             android:paddingBottom="15dp"
-            android:text="WhatsaAap"
+            android:text="WhatsApp"
             android:textAllCaps="false" />
 
     </LinearLayout>
