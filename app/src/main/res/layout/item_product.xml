@@ -31,6 +31,7 @@
 
                 <ImageView
                     android:id="@+id/imPhoto"
+                    android:scaleType="centerCrop"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                      />
@@ -52,14 +53,16 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="8dp"
-                            android:layout_marginTop="6dp">
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="7dp">
 
                             <ImageView
-                                android:layout_width="25dp"
-                                android:layout_height="25dp"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
                                 android:layout_gravity="center"
-                                android:src="@drawable/ic_baseline_favorite_border_24">
+                                android:tint="#3A86F7"
+                                android:src="@drawable/heart"
+                                tools:ignore="UseAppTint">
 
                             </ImageView>
                         </RelativeLayout>

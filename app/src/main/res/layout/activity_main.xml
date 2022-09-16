@@ -6,12 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <LinearLayout
+    <androidx.cardview.widget.CardView
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:orientation="horizontal"
-        android:background="@color/meli_yellow"
+        app:cardElevation="3dp"
+        app:cardBackgroundColor="@color/meli_yellow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +67,7 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvRecicler"

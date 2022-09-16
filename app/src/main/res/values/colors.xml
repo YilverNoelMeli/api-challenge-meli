@@ -11,4 +11,6 @@
     <color name="colorTitle">#333333</color>
     <color name="colorPrice">#E6000000</color>
     <color name="colorgray">#999B9C</color>
+    <color name="blue">#3A86F7</color>
+    <color name="blueButton">#3483FA</color>
 </resources>
