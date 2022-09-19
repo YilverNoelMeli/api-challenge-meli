@@ -1,5 +1,6 @@
 package com.example.challenge_api_meli.Adapter
 
+import android.content.Context
 import android.content.Intent
 import android.icu.lang.UCharacter.GraphemeClusterBreak.L
 import android.os.Bundle
@@ -22,7 +23,12 @@ class ProductAdapter (private val listProducts: List<ItemsResponse>): RecyclerVi
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
         val itemPosition = listProducts[position]
-        holder.OnBind(itemPosition, holder)
+        val context = holder.itemView.context.applicationContext
+        val sharedPreference = context.getSharedPreferences("favorites_preferences", Context.MODE_PRIVATE)
+        var favoritePreferences = sharedPreference.getString("favoriteItems", "")
+        val isFavorite = favoritePreferences?.contains(itemPosition.body.id) ?:false
+
+        holder.OnBind(itemPosition, holder, isFavorite)
     }
 
     override fun getItemCount(): Int = listProducts.size

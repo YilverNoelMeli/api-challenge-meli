@@ -21,6 +21,7 @@
             android:layout_height="match_parent">
 
             <ImageView
+                android:id="@+id/ivFavoriteHead"
                 android:layout_width="20dp"
                 android:layout_height="18dp"
                 android:layout_marginLeft="265dp"
@@ -28,6 +29,15 @@
                 android:src="@drawable/heart">
 
             </ImageView>
+            <ImageView
+                android:id="@+id/ivFavoriteSelected"
+                android:layout_width="20dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="265dp"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/heartfull"
+                android:visibility="gone"
+                />
 
             <ImageView
                 android:layout_width="19dp"
@@ -97,7 +107,7 @@
                 style="@style/textGraySmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="tfhyfttyuyyyyyrrrrrrrrrsss" />
+                 />
         </LinearLayout>
 
         <LinearLayout
@@ -113,7 +123,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="ksofdlñfdlñdf,dñsfd{ñfd" />
+                 />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -230,6 +240,7 @@
             android:gravity="center">
 
             <ImageView
+                android:id="@+id/ivFavoriteFoot"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
                 android:layout_marginLeft="54dp"

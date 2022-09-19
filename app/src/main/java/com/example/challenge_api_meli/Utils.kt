@@ -1,11 +1,12 @@
 package com.example.challenge_api_meli
 
+import android.content.Context
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class Utils {
     companion object{
-        const val API_KEY = "APP_USR-3344393545027119-091523-002580571428b399a3a5533b6f5853e5-1131425556"
+        const val API_KEY = "APP_USR-3344393545027119-091818-f6e09f721bf327ac200ba64aa64506eb-1131425556"
 
        fun getRetrofit(): Retrofit {
             return Retrofit.Builder()
@@ -13,6 +14,7 @@ class Utils {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
         }
+
     }
 
 }

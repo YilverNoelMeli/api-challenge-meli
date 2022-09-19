@@ -8,9 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="meli_yellow">#FDDD11</color>
+    <color name="yellowHeader">#FEDB14</color>
+    <color name="yellowLoad">#867A35</color>
+    <color name="yellowLoadExt">#BEAA3E</color>
+    <color name="yellowProfile">#FAE56A</color>
     <color name="colorTitle">#333333</color>
     <color name="colorPrice">#E6000000</color>
     <color name="colorgray">#999B9C</color>
     <color name="blue">#3A86F7</color>
     <color name="blueButton">#3483FA</color>
+    <color name="shadowColor">#B5000000</color>
 </resources>

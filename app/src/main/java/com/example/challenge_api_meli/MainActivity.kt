@@ -1,13 +1,22 @@
 package com.example.challenge_api_meli
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
+import android.view.View
+import android.widget.ImageView
+import android.widget.ProgressBar
 import android.widget.Toast
+import android.widget.Toolbar
+import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.core.view.GravityCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.challenge_api_meli.APIService.ProductService
 import com.example.challenge_api_meli.Adapter.ProductAdapter
 import com.example.challenge_api_meli.Utils.Companion.getRetrofit
 import com.example.challenge_api_meli.databinding.ActivityMainBinding
+import com.google.android.material.navigation.NavigationView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -15,7 +24,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.lang.StringBuilder
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: ProductAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,7 +36,36 @@ class MainActivity : AppCompatActivity() {
         btnSearch.setOnClickListener {
             searchUrl(etSearch.text.toString())
         }
+        val drawer = binding.drawerLayout
+        val navView = binding.navView
+        val toolbar = binding.ivOptionSidebar
+        val header: View = navView.getHeaderView(0)
+        val progress = header.findViewById<ProgressBar>(R.id.progress)
+        progress.progress = 40
+        /*val ivShare = header.findViewById<ImageView>(R.id.ejemplo)
+        ivShare.setOnClickListener {
+            Toast.makeText(this,"dssds",Toast.LENGTH_SHORT).show()
+        }
+        val ivKOKORO = header.findViewById<ImageView>(R.id.ejemplo2)
+        ivKOKORO.setOnClickListener {
+            Toast.makeText(this,"im very happy thanks univers, god, and mamapacha",Toast.LENGTH_SHORT).show()
+        }*/
+       /* val changeIconsMenu =  navView.menu
+        changeIconsMenu.findItem(R.id.favorites).setVisible(true)*/
 
+        setSupportActionBar(toolbar)
+        navView.bringToFront()
+        val toggle: ActionBarDrawerToggle = ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
+        drawer.addDrawerListener(toggle)
+        toggle.syncState()
+        navView.setNavigationItemSelectedListener(this)
+    }
+
+    override fun onBackPressed() {
+        if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)){
+            binding.drawerLayout.closeDrawer(GravityCompat.START)
+        }else
+            super.onBackPressed()
     }
 
     private fun searchUrl(query: String) {
@@ -78,5 +116,16 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+    }
+
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+
+        when(item.itemId){
+            R.id.favorites ->{
+                val goFavoriteActivity = Intent(this, Favorites::class.java)
+                        startActivity(goFavoriteActivity)
+            }
+        }
+        return true
     }
 }
