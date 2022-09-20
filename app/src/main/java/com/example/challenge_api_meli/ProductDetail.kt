@@ -20,32 +20,65 @@ class ProductDetail : AppCompatActivity() {
         val sharedPreference = getSharedPreferences("favorites_preferences", Context.MODE_PRIVATE)
         var favoritePreferences = sharedPreference.getString("favoriteItems", "")
         var isFavorite = favoritePreferences?.contains(idItem.toString())
+        val btnFavoriteHeader = binding.ivFavoriteHead
+        val btnFavoritesHeaderSelect = binding.ivFavoriteSelected
+        val btnFavoriteFooter =  binding.ivFavoriteFoot
+        val btnFavoriteFootSelect = binding.ivFavoriteFootSelected
+        val sharedManager = SharedManager()
         if (isFavorite == true){
-            binding.ivFavoriteSelected.visibility = View.VISIBLE
-            binding.ivFavoriteHead.visibility = View.GONE
+           favoritesOptions(false)
         }
         binding.tvSmallTitle.text = title
         binding.tvMediumTitle.text = title
         binding.tvPriceDetail.text = "$ ${price}"
+
         imageUrl?.let {
             loadImage(imageUrl)
         }
 
-        val btnFavoriteHeader = binding.ivFavoriteHead
-        val sharedManager = SharedManager()
         btnFavoriteHeader.setOnClickListener {
+            favoritesOptions(false)
             idItem?.let {
-                binding.ivFavoriteSelected.visibility = View.VISIBLE
-                binding.ivFavoriteHead.visibility = View.GONE
                 sharedManager.saveLikeFavorite(idItem, this)
             }
         }
 
-        binding.ivFavoriteSelected.setOnClickListener {
-            binding.ivFavoriteSelected.visibility = View.GONE
-            binding.ivFavoriteHead.visibility = View.VISIBLE
+       btnFavoritesHeaderSelect.setOnClickListener {
+           favoritesOptions(true)
             idItem?.let {
                 sharedManager.deleteOfFavorites(idItem, this)
+            }
+        }
+
+        btnFavoriteFooter.setOnClickListener {
+           favoritesOptions(false)
+            idItem?.let {
+                sharedManager.saveLikeFavorite(idItem, this)
+            }
+        }
+
+        btnFavoriteFootSelect.setOnClickListener {
+            favoritesOptions(true)
+            idItem?.let {
+                sharedManager.deleteOfFavorites(idItem, this)
+            }
+        }
+    }
+    private fun favoritesOptions(isSeleted: Boolean){
+        when(isSeleted){
+            true ->{
+                binding.ivFavoriteSelected.visibility = View.GONE
+                binding.ivFavoriteHead.visibility = View.VISIBLE
+                binding.ivFavoriteFoot.visibility = View.VISIBLE
+                binding.ivFavoriteFootSelected.visibility = View.GONE
+                binding.tvAddFavoriteState.text = "Agregar a favoritos"
+            }
+            false ->{
+                binding.ivFavoriteFoot.visibility = View.GONE
+                binding.ivFavoriteFootSelected.visibility = View.VISIBLE
+                binding.ivFavoriteSelected.visibility = View.VISIBLE
+                binding.ivFavoriteHead.visibility = View.GONE
+                binding.tvAddFavoriteState.text = "Quitar de favoritos"
             }
         }
     }

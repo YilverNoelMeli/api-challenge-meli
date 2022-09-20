@@ -24,6 +24,6 @@ interface ProductService {
 
     @Headers("Authorization: Bearer ${API_KEY}")
     @GET("/items")
-    suspend fun getMultiGet(@Query("ids") listItems: String): Response<List<ItemsResponse>>
+    suspend fun getMultiGet(@Query("ids") listItems: String): Response<MutableList<ItemsResponse>>
 
 }

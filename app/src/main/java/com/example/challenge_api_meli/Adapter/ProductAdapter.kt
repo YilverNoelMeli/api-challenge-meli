@@ -27,7 +27,6 @@ class ProductAdapter (private val listProducts: List<ItemsResponse>): RecyclerVi
         val sharedPreference = context.getSharedPreferences("favorites_preferences", Context.MODE_PRIVATE)
         var favoritePreferences = sharedPreference.getString("favoriteItems", "")
         val isFavorite = favoritePreferences?.contains(itemPosition.body.id) ?:false
-
         holder.OnBind(itemPosition, holder, isFavorite)
     }
 

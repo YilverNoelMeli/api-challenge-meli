@@ -27,6 +27,7 @@ import java.lang.StringBuilder
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: ProductAdapter
+    private var list: MutableList<ItemsResponse> = mutableListOf()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -42,29 +43,31 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val header: View = navView.getHeaderView(0)
         val progress = header.findViewById<ProgressBar>(R.id.progress)
         progress.progress = 40
-        /*val ivShare = header.findViewById<ImageView>(R.id.ejemplo)
-        ivShare.setOnClickListener {
-            Toast.makeText(this,"dssds",Toast.LENGTH_SHORT).show()
-        }
-        val ivKOKORO = header.findViewById<ImageView>(R.id.ejemplo2)
-        ivKOKORO.setOnClickListener {
-            Toast.makeText(this,"im very happy thanks univers, god, and mamapacha",Toast.LENGTH_SHORT).show()
-        }*/
-       /* val changeIconsMenu =  navView.menu
-        changeIconsMenu.findItem(R.id.favorites).setVisible(true)*/
-
         setSupportActionBar(toolbar)
         navView.bringToFront()
-        val toggle: ActionBarDrawerToggle = ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
+        val toggle: ActionBarDrawerToggle = ActionBarDrawerToggle(
+            this,
+            drawer,
+            toolbar,
+            R.string.navigation_drawer_open,
+            R.string.navigation_drawer_close
+        )
         drawer.addDrawerListener(toggle)
         toggle.syncState()
         navView.setNavigationItemSelectedListener(this)
     }
 
+    override fun onResume() {
+        super.onResume()
+        if (!list.isNullOrEmpty()) {
+            adapter.notifyDataSetChanged()
+        }
+    }
+
     override fun onBackPressed() {
-        if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)){
+        if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
             binding.drawerLayout.closeDrawer(GravityCompat.START)
-        }else
+        } else
             super.onBackPressed()
     }
 
@@ -105,9 +108,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             val responseCall3 = call3.body()
             runOnUiThread {
                 if (call3.isSuccessful) {
-                    val listProduct: List<ItemsResponse>? = responseCall3
-                    listProduct?.let {
-                        adapter = ProductAdapter(listProduct)
+                    responseCall3?.let {
+                        list = responseCall3
+                    }
+                    list?.let {
+                        adapter = ProductAdapter(list)
                         binding.rvRecicler.layoutManager = LinearLayoutManager(baseContext)
                         binding.rvRecicler.adapter = adapter
                     }
@@ -120,10 +125,14 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
-        when(item.itemId){
-            R.id.favorites ->{
+        when (item.itemId) {
+            R.id.favorites -> {
                 val goFavoriteActivity = Intent(this, Favorites::class.java)
-                        startActivity(goFavoriteActivity)
+                startActivity(goFavoriteActivity)
+                binding.drawerLayout.closeDrawers()
+            }
+            R.id.home -> {
+                binding.drawerLayout.closeDrawers()
             }
         }
         return true
