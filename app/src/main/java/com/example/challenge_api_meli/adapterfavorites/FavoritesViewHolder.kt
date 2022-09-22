@@ -1,17 +1,13 @@
-package com.example.challenge_api_meli.AdapterFavorites
+package com.example.challenge_api_meli.adapterfavorites
 
 import android.content.Context
 import android.view.View
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.challenge_api_meli.Adapter.ProductViewHolder
-import com.example.challenge_api_meli.Interfaces.ClickItem
-import com.example.challenge_api_meli.ItemsResponse
-import com.example.challenge_api_meli.SharedManager
+import com.example.challenge_api_meli.interfaces.ClickItem
+import com.example.challenge_api_meli.models.ItemsResponse
+import com.example.challenge_api_meli.sharedmanager.SharedManager
 import com.example.challenge_api_meli.databinding.ItemFavoritesBinding
-import com.example.challenge_api_meli.databinding.ItemProductBinding
 import com.squareup.picasso.Picasso
-import kotlinx.coroutines.CoroutineScope
 import java.text.DecimalFormat
 
 class FavoritesViewHolder (view: View): RecyclerView.ViewHolder(view){

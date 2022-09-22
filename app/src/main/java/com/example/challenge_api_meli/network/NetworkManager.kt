@@ -1,4 +1,4 @@
-package com.example.challenge_api_meli
+package com.example.challenge_api_meli.network
 
 import android.content.Context
 import android.net.ConnectivityManager

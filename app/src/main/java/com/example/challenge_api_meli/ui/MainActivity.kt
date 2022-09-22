@@ -1,6 +1,5 @@
-package com.example.challenge_api_meli
+package com.example.challenge_api_meli.ui
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,10 +10,15 @@ import android.widget.ProgressBar
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.challenge_api_meli.APIService.ProductService
-import com.example.challenge_api_meli.Adapter.ProductAdapter
-import com.example.challenge_api_meli.Utils.Companion.getRetrofit
+import com.example.challenge_api_meli.*
+import com.example.challenge_api_meli.apiservice.ProductService
+import com.example.challenge_api_meli.adapterproducts.ProductAdapter
+import com.example.challenge_api_meli.utils.Utils.Companion.getRetrofit
 import com.example.challenge_api_meli.databinding.ActivityMainBinding
+import com.example.challenge_api_meli.models.Category
+import com.example.challenge_api_meli.models.ItemsResponse
+import com.example.challenge_api_meli.network.NetworkManager
+import com.example.challenge_api_meli.utils.Utils
 import com.google.android.material.navigation.NavigationView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

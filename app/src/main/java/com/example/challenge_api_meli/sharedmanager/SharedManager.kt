@@ -1,4 +1,4 @@
-package com.example.challenge_api_meli
+package com.example.challenge_api_meli.sharedmanager
 
 import android.content.Context
 

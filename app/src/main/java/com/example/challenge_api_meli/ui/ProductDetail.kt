@@ -1,16 +1,19 @@
-package com.example.challenge_api_meli
+package com.example.challenge_api_meli.ui
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
+import com.example.challenge_api_meli.network.NetworkManager
+import com.example.challenge_api_meli.sharedmanager.SharedManager
 import com.example.challenge_api_meli.databinding.ActivityProductDetailBinding
+import com.example.challenge_api_meli.models.ItemsResponse
 import com.squareup.picasso.Picasso
 
 class ProductDetail : AppCompatActivity() {
     private lateinit var binding: ActivityProductDetailBinding
     val connection = NetworkManager()
+    var listItemsResponse: MutableList<ItemsResponse> = mutableListOf()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityProductDetailBinding.inflate(layoutInflater)

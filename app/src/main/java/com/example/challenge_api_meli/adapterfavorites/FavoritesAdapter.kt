@@ -1,12 +1,11 @@
-package com.example.challenge_api_meli.AdapterFavorites
+package com.example.challenge_api_meli.adapterfavorites
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.challenge_api_meli.Interfaces.ClickItem
-import com.example.challenge_api_meli.ItemsResponse
+import com.example.challenge_api_meli.interfaces.ClickItem
+import com.example.challenge_api_meli.models.ItemsResponse
 import com.example.challenge_api_meli.R
-import kotlinx.coroutines.CoroutineScope
 
 class FavoritesAdapter(private val listFavorites: List<ItemsResponse>, val call: ClickItem): RecyclerView.Adapter<FavoritesViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FavoritesViewHolder {

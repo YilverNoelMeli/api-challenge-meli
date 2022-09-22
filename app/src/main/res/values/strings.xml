@@ -30,7 +30,7 @@
         <item name="fontWeight">400</item>
         <item name="android:textColor">@color/colorgray</item>
         <item name="android:hint">Buscar en Mercado Libre</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="textBlackMedium">

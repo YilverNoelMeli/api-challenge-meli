@@ -1,7 +1,9 @@
-package com.example.challenge_api_meli.APIService
+package com.example.challenge_api_meli.apiservice
 
-import com.example.challenge_api_meli.*
-import com.example.challenge_api_meli.Utils.Companion.API_KEY
+import com.example.challenge_api_meli.utils.Utils.Companion.API_KEY
+import com.example.challenge_api_meli.models.Category
+import com.example.challenge_api_meli.models.HighLightList
+import com.example.challenge_api_meli.models.ItemsResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Headers

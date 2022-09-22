@@ -1,4 +1,4 @@
-package com.example.challenge_api_meli.Interfaces
+package com.example.challenge_api_meli.interfaces
 
 interface ClickItem {
     fun clickItem(position : Int)

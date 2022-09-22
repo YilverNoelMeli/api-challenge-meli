@@ -1,11 +1,11 @@
-package com.example.challenge_api_meli.Adapter
+package com.example.challenge_api_meli.adapterproducts
 
 import android.content.Intent
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.example.challenge_api_meli.SharedManager
-import com.example.challenge_api_meli.ItemsResponse
-import com.example.challenge_api_meli.ProductDetail
+import com.example.challenge_api_meli.sharedmanager.SharedManager
+import com.example.challenge_api_meli.models.ItemsResponse
+import com.example.challenge_api_meli.ui.ProductDetail
 import com.example.challenge_api_meli.databinding.ItemProductBinding
 import com.squareup.picasso.Picasso
 import java.text.DecimalFormat
@@ -19,7 +19,6 @@ class ProductViewHolder (view: View):RecyclerView.ViewHolder(view)  {
         val price = formartCO.format(itemPosition.body.price.toDouble()).toString().replace(",",".")
         val title = itemPosition.body.title
         val idItem = itemPosition.body.id
-        ///////////////////////////////////////////////////
         val detailsMethods = SharedManager()
         binding.ivHearFull.visibility = View.GONE
         binding.ivHearEmpty.visibility = View.VISIBLE
@@ -43,7 +42,6 @@ class ProductViewHolder (view: View):RecyclerView.ViewHolder(view)  {
                 detailsMethods.deleteOfFavorites(idItem, context)
             }
         }
-        ////////////////////////////////////////////////////
         binding.tvItem.text = title
         binding.tvPrice.text = "$ ${price}"
 

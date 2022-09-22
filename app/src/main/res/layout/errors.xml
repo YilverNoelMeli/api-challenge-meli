@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:text="Revisa que la plabra esté bien escrita"
+            android:text="Revisa que la palabra esté bien escrita"
             tools:layout_editor_absoluteX="108dp"
             tools:layout_editor_absoluteY="475dp" />
     </LinearLayout>

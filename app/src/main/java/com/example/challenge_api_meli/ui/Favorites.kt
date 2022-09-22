@@ -1,4 +1,4 @@
-package com.example.challenge_api_meli
+package com.example.challenge_api_meli.ui
 
 import android.content.Context
 import android.content.Intent
@@ -9,10 +9,15 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.challenge_api_meli.APIService.ProductService
-import com.example.challenge_api_meli.AdapterFavorites.FavoritesAdapter
-import com.example.challenge_api_meli.Interfaces.ClickItem
+import com.example.challenge_api_meli.*
+import com.example.challenge_api_meli.apiservice.ProductService
+import com.example.challenge_api_meli.adapterfavorites.FavoritesAdapter
+import com.example.challenge_api_meli.interfaces.ClickItem
 import com.example.challenge_api_meli.databinding.ActivityFavoritesBinding
+import com.example.challenge_api_meli.models.ItemsResponse
+import com.example.challenge_api_meli.network.NetworkManager
+import com.example.challenge_api_meli.sharedmanager.SharedManager
+import com.example.challenge_api_meli.utils.Utils
 import com.google.android.material.navigation.NavigationView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
