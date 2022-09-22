@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class Utils {
     companion object{
-        const val API_KEY = "APP_USR-3344393545027119-092123-184ea81f2507df59365f8dc5346783c4-1131425556"
+        const val API_KEY = "APP_USR-3344393545027119-092209-4248f9833d2a0b42597f2c78e9ebf095-1131425556"
         const val PREDITOR_ERORR = "preditor"
         const val MULTIGET_ERORR = "multiget"
         const val CONNECTION_ERROR = "noConnected"

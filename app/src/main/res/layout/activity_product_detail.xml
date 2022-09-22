@@ -8,287 +8,321 @@
 
     <include
         android:id="@+id/layoutE"
-        layout="@layout/errors"
-        >
-    </include>
+        layout="@layout/errors"></include>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
-        android:layout_height="82dp"
-        android:background="@color/meli_yellow"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.384"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/ivFavoriteHead"
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:layout_marginLeft="265dp"
-                android:layout_marginTop="14dp"
-                android:src="@drawable/heart">
-
-            </ImageView>
-            <ImageView
-                android:id="@+id/ivFavoriteSelected"
-                android:layout_width="20dp"
-                android:layout_height="18dp"
-                android:layout_marginLeft="265dp"
-                android:layout_marginTop="14dp"
-                android:src="@drawable/heartfull"
-                android:visibility="gone"
-                />
-
-            <ImageView
-                android:layout_width="19dp"
-                android:layout_height="19dp"
-                android:layout_marginLeft="307dp"
-                android:layout_marginTop="14dp"
-                android:src="@drawable/search"
-                android:tint="@color/black"
-                tools:ignore="UseAppTint"></ImageView>
-
-            <ImageView
-                android:layout_width="22dp"
-                android:layout_height="18dp"
-                android:layout_marginLeft="347dp"
-                android:layout_marginTop="14dp"
-                android:src="@drawable/carrito"></ImageView>
-
-            <ImageView
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="54dp"
-                android:src="@drawable/location"></ImageView>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="20dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="54dp">
-
-                <TextView
-                    style="@style/textBlackMedium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Enviar a Nombre de Usuario - Dirección" />
-            </LinearLayout>
-
-            <ImageView
-                android:layout_width="10dp"
-                android:layout_height="12dp"
-                android:layout_marginLeft="290dp"
-                android:layout_marginTop="57dp"
-                android:src="@drawable/next"
-                android:tint="@color/colorgray"
-                tools:ignore="UseAppTint" />
-        </RelativeLayout>
-
-    </LinearLayout>
-
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="97dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="22dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp">
-
-            <TextView
-                android:id="@+id/tvSmallTitle"
-                style="@style/textGraySmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                 />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="22dp"
-            android:layout_marginTop="34dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/tvMediumTitle"
-                style="@style/textBlackTitleProduct"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                 />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp">
-
-                <TextView
-                    style="@style/textGrayVerySmall"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Vendedor con" />
-
-                <TextView
-                    style="@style/textBlueVerySmall"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="3dp"
-                    android:text="identidad verificada" />
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/relativeLayout2"
-        android:layout_width="365dp"
-        android:layout_height="277dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
-
-        <ImageView
-            android:id="@+id/ivProduct"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        </ImageView>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-    </RelativeLayout>
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="0dp"
+                    android:layout_height="82dp"
+                    android:background="@color/meli_yellow"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.384"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="12sp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/tvPriceDetail"
-            style="@style/textBlackBig"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="$ 2.2000.00" />
+                        <ImageView
+                            android:id="@+id/ivFavoriteHead"
+                            android:layout_width="20dp"
+                            android:layout_height="18dp"
+                            android:layout_marginLeft="265dp"
+                            android:layout_marginTop="14dp"
+                            android:src="@drawable/heart">
 
-    </LinearLayout>
+                        </ImageView>
 
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="361dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="24dp"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+                        <ImageView
+                            android:id="@+id/ivFavoriteSelected"
+                            android:layout_width="20dp"
+                            android:layout_height="18dp"
+                            android:layout_marginLeft="265dp"
+                            android:layout_marginTop="14dp"
+                            android:src="@drawable/heartfull"
+                            android:visibility="gone" />
 
-        <Button
-            style="@style/textBtnBlue"
-            android:layout_width="170dp"
-            android:layout_height="49dp"
-            android:layout_marginRight="10dp"
-            android:background="@drawable/style_button"
-            android:paddingHorizontal="24dp"
-            android:paddingTop="17dp"
-            android:paddingBottom="15dp"
-            android:text="Preguntar"
-            android:textAllCaps="false" />
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_marginLeft="307dp"
+                            android:layout_marginTop="14dp"
+                            android:src="@drawable/search"
+                            android:tint="@color/black"
+                            tools:ignore="UseAppTint"></ImageView>
 
-        <Button
-            style="@style/textBtnBlue"
-            android:layout_width="170dp"
-            android:layout_height="49dp"
-            android:background="@drawable/style_button"
-            android:drawableLeft="@drawable/clip"
-            android:paddingHorizontal="24dp"
-            android:paddingTop="17dp"
-            android:paddingBottom="15dp"
-            android:text="WhatsApp"
-            android:textAllCaps="false" />
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="18dp"
+                            android:layout_marginLeft="347dp"
+                            android:layout_marginTop="14dp"
+                            android:src="@drawable/carrito"></ImageView>
 
-    </LinearLayout>
+                        <ImageView
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="54dp"
+                            android:src="@drawable/location"></ImageView>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_marginTop="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:gravity="center">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="54dp">
 
-            <ImageView
-                android:id="@+id/ivFavoriteFoot"
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:layout_marginLeft="54dp"
-                android:src="@drawable/heart"
-                android:tint="@color/blue"
-                tools:ignore="UseAppTint" />
-            <ImageView
-                android:id="@+id/ivFavoriteFootSelected"
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:layout_marginLeft="54dp"
-                android:src="@drawable/heartfull"
-                android:tint="@color/blue"
-                tools:ignore="UseAppTint"
-                android:visibility="gone"/>
-            <TextView
-                android:id="@+id/tvAddFavoriteState"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:layout_marginLeft="84dp"
-                style="@style/textBlueSmall"
-                android:text="Agregar a favoritos"
-                />
-            <ImageView
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:layout_marginLeft="227dp"
-                android:tint="@color/blue"
-                android:src="@drawable/share"
-                tools:ignore="UseAppTint" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:layout_marginLeft="260dp"
-                style="@style/textBlueSmall"
-                android:text="Compartir"
-                />
-        </RelativeLayout>
+                            <TextView
+                                style="@style/textBlackMedium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Enviar a Nombre de Usuario - Dirección" />
+                        </LinearLayout>
 
-    </LinearLayout>
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="12dp"
+                            android:layout_marginLeft="290dp"
+                            android:layout_marginTop="57dp"
+                            android:src="@drawable/next"
+                            android:tint="@color/colorgray"
+                            tools:ignore="UseAppTint" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="97dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp">
+
+                        <TextView
+                            android:id="@+id/tvSmallTitle"
+                            style="@style/textGraySmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="22dp"
+                        android:layout_marginTop="34dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvMediumTitle"
+                            style="@style/textBlackTitleProduct"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                style="@style/textGrayVerySmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Vendedor con" />
+
+                            <TextView
+                                style="@style/textBlueVerySmall"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="3dp"
+                                android:text="identidad verificada" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout2"
+                    android:layout_width="365dp"
+                    android:layout_height="277dp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.529"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+                    <ImageView
+                        android:id="@+id/ivProduct"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12sp"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.087"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+                    <TextView
+                        android:id="@+id/tvPriceDetail"
+                        style="@style/textBlackBig"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$ 2.2000.00" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="361dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="24dp"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                    <Button
+                        style="@style/textBtnBlue"
+                        android:layout_width="170dp"
+                        android:layout_height="49dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/style_button"
+                        android:paddingHorizontal="24dp"
+                        android:paddingTop="17dp"
+                        android:paddingBottom="15dp"
+                        android:text="Preguntar"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        style="@style/textBtnBlue"
+                        android:layout_width="170dp"
+                        android:layout_height="49dp"
+                        android:background="@drawable/style_button"
+                        android:drawableLeft="@drawable/clip"
+                        android:paddingHorizontal="24dp"
+                        android:paddingTop="17dp"
+                        android:paddingBottom="15dp"
+                        android:text="WhatsApp"
+                        android:textAllCaps="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.137"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/ivFavoriteFoot"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:layout_marginLeft="54dp"
+                            android:src="@drawable/heart"
+                            android:tint="@color/blue"
+                            tools:ignore="UseAppTint" />
+
+                        <ImageView
+                            android:id="@+id/ivFavoriteFootSelected"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:layout_marginLeft="54dp"
+                            android:src="@drawable/heartfull"
+                            android:tint="@color/blue"
+                            android:visibility="gone"
+                            tools:ignore="UseAppTint" />
+
+                        <TextView
+                            android:id="@+id/tvAddFavoriteState"
+                            style="@style/textBlueSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="84dp"
+                            android:layout_marginTop="2dp"
+                            android:text="Agregar a favoritos" />
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:layout_marginLeft="227dp"
+                            android:src="@drawable/share"
+                            android:tint="@color/blue"
+                            tools:ignore="UseAppTint" />
+
+                        <TextView
+                            style="@style/textBlueSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="260dp"
+                            android:layout_marginTop="2dp"
+                            android:text="Compartir" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearDescripcion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ll">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:layout_editor_absoluteX="328dp"
+                        tools:layout_editor_absoluteY="649dp">
+
+                    </TextView>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
