@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:background="@color/yellowHeader">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:indeterminateOnly="false"
+                android:progressDrawable="@drawable/circle"
+                android:rotation="-90"
+                tools:progress="40">
+
+            </ProgressBar>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/style_profile"/>
+
+            <LinearLayout
+                android:layout_width="255dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="58dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textBlackMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:text="Hola Nombre Usuario" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        style="@style/textBlackTitleProduct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nivel 3 - Mercado Puntos"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="1dp"
+                        android:src="@drawable/arrowrig"
+                        android:tint="@color/black"
+                        tools:ignore="UseAppTint" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="285dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="118dp"
+                android:background="@drawable/style_bar_profile">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mercado pago"
+                    android:layout_marginLeft="46dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    style="@style/textBlackTitleProduct">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/arrowrig"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="100dp"
+                    android:tint="@color/black"
+                    tools:ignore="UseAppTint"></ImageView>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+
+</LinearLayout>

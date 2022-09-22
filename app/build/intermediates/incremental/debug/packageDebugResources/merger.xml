@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="http://schemas.android.com/tools"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res"/><source path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/build/generated/res/rs/debug"/><source path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res"><file name="ic_launcher" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-mdpi/ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_foreground" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="ic_launcher" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-hdpi/ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="carrito" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/carrito.png" qualifiers="" type="drawable"/><file name="line_style" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/line_style.xml" qualifiers="" type="drawable"/><file name="arrowrig" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/arrowrig.png" qualifiers="" type="drawable"/><file name="circle" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/circle.xml" qualifiers="" type="drawable"/><file name="style_profile" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/style_profile.xml" qualifiers="" type="drawable"/><file name="home" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/home.png" qualifiers="" type="drawable"/><file name="hamburger" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/hamburger.png" qualifiers="" type="drawable"/><file name="clip" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/clip.png" qualifiers="" type="drawable"/><file name="style_favorite" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/style_favorite.xml" qualifiers="" type="drawable"/><file name="search" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/search.png" qualifiers="" type="drawable"/><file name="heart" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/heart.png" qualifiers="" type="drawable"/><file name="heartfull" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/heartfull.png" qualifiers="" type="drawable"/><file name="item_text_color" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/item_text_color.xml" qualifiers="" type="drawable"/><file name="menu" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/menu.png" qualifiers="" type="drawable"/><file name="style_edit_search" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/style_edit_search.xml" qualifiers="" type="drawable"/><file name="share" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/share.png" qualifiers="" type="drawable"/><file name="style_bar_profile" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/style_bar_profile.xml" qualifiers="" type="drawable"/><file name="location" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/location.png" qualifiers="" type="drawable"/><file name="next" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/next.png" qualifiers="" type="drawable"/><file name="ic_baseline_view_headline_24" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/ic_baseline_view_headline_24.xml" qualifiers="" type="drawable"/><file name="style_button" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/style_button.xml" qualifiers="" type="drawable"/><file name="ic_baseline_favorite_border_24" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="item_favorites" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/layout/item_favorites.xml" qualifiers="" type="layout"/><file name="activity_favorites" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/layout/activity_favorites.xml" qualifiers="" type="layout"/><file name="item_product" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/layout/item_product.xml" qualifiers="" type="layout"/><file name="header" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/layout/header.xml" qualifiers="" type="layout"/><file name="activity_product_detail" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/layout/activity_product_detail.xml" qualifiers="" type="layout"/><file name="activity_main" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/values-night/themes.xml" qualifiers="night-v8"><style name="Theme.Challengeapimeli" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style></file><file path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/values/colors.xml" qualifiers=""><color name="purple_200">#FFBB86FC</color><color name="purple_500">#FF6200EE</color><color name="purple_700">#FF3700B3</color><color name="teal_200">#FF03DAC5</color><color name="teal_700">#FF018786</color><color name="black">#FF000000</color><color name="white">#FFFFFFFF</color><color name="meli_yellow">#FDDD11</color><color name="yellowHeader">#FEDB14</color><color name="yellowLoad">#867A35</color><color name="yellowLoadExt">#BEAA3E</color><color name="yellowProfile">#FAE56A</color><color name="colorTitle">#333333</color><color name="colorPrice">#E6000000</color><color name="colorgray">#999B9C</color><color name="blue">#3A86F7</color><color name="blueButton">#3483FA</color><color name="shadowColor">#B5000000</color><color name="colorgrayBgErrors">#EFF0F1</color><color name="colorDanger">#df4759</color></file><file path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/values/themes.xml" qualifiers=""><style name="Theme.Challengeapimeli" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/meli_yellow</item>
+        <item name="colorPrimaryVariant">@color/meli_yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style></file><file path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">challenge-api-meli</string><string name="navigation_drawer_open">Open navigation drawer</string><string name="navigation_drawer_close">Close navigation drawer</string><style name="textTitle">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textSize">13sp</item>
+    </style><style name="textPrice">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">20sp</item>
+    </style><style name="textGray">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">11sp</item>
+    </style><style name="textSearch">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:hint">Buscar en Mercado Libre</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="textBlackMedium">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="textGraySmall">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">12sp</item>
+    </style><style name="textBlackTitleProduct">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">16sp</item>
+    </style><style name="textGrayVerySmall">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">11sp</item>
+    </style><style name="textBlueVerySmall">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">11sp</item>
+    </style><style name="textBlackBig">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">45sp</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">36sp</item>
+    </style><style name="textBtnBlue">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="textBlueSmall">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">14sp</item>
+    </style><style name="textGrayErr">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">17sp</item>
+    </style><style name="textBlackErr">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">24sp</item>
+    </style><style name="textBlueTry">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">17sp</item>
+    </style></file><file name="backup_rules" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/xml/backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/xml/data_extraction_rules.xml" qualifiers="" type="xml"/><file name="main_menu" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/menu/main_menu.xml" qualifiers="" type="menu"/><file name="ic_launcher" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="proxima_nova_font" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/font/proxima_nova_font.otf" qualifiers="" type="font"/><file name="ic_launcher" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="errors" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/layout/errors.xml" qualifiers="" type="layout"/><file name="style_icon_error_notfound" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/style_icon_error_notfound.xml" qualifiers="" type="drawable"/><file name="antena" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/antena.jpeg" qualifiers="" type="drawable"/><file name="satelite" path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/main/res/drawable/satelite.png" qualifiers="" type="drawable"/></source><source path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/build/generated/res/rs/debug"/><source path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/yisanchez/AndroidStudioProjects/challengeapimeli/app/src/debug/res"/></dataSet><mergedItems/></merger>

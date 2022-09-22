@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_style_bar_profile.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/style_bar_profile.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/menu_main_menu.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/menu/main_menu.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_menu.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/menu.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_satelite.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/satelite.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_style_button.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/style_button.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_hamburger.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/hamburger.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_heart.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/heart.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/font_proxima_nova_font.otf.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/font/proxima_nova_font.otf"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_heartfull.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/heartfull.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_style_edit_search.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/style_edit_search.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_style_icon_error_notfound.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/style_icon_error_notfound.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_search.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/search.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_clip.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/clip.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_antena.jpeg.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/antena.jpeg"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_line_style.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/line_style.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/layout_item_product.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/layout/item_product.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/layout_activity_product_detail.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_share.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/share.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/layout_errors.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/layout/errors.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_arrowrig.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/arrowrig.png"
+    },
+    {
+        "merged": "com.example.challenge_api_meli.app-merged_res-29:/layout_activity_product_detail.xml.flat",
+        "source": "com.example.challenge_api_meli.app-main-31:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_home.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/home.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/layout_activity_favorites.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/layout/activity_favorites.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/layout_item_favorites.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/layout/item_favorites.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_style_profile.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/style_profile.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/ic_baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/layout_header.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/layout/header.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_location.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/location.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_style_favorite.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/style_favorite.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_circle.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/circle.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_next.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/next.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_carrito.png.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/carrito.png"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_item_text_color.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/item_text_color.xml"
+    },
+    {
+        "merged": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-merged_res-29:/drawable_ic_baseline_view_headline_24.xml.flat",
+        "source": "/Users/yisanchez/.gradle/daemon/7.3.3/com.example.challenge_api_meli.app-main-31:/drawable/ic_baseline_view_headline_24.xml"
+    }
+]

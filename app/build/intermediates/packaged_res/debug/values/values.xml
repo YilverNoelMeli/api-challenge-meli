@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="blue">#3A86F7</color>
+    <color name="blueButton">#3483FA</color>
+    <color name="colorDanger">#df4759</color>
+    <color name="colorPrice">#E6000000</color>
+    <color name="colorTitle">#333333</color>
+    <color name="colorgray">#999B9C</color>
+    <color name="colorgrayBgErrors">#EFF0F1</color>
+    <color name="meli_yellow">#FDDD11</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="shadowColor">#B5000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellowHeader">#FEDB14</color>
+    <color name="yellowLoad">#867A35</color>
+    <color name="yellowLoadExt">#BEAA3E</color>
+    <color name="yellowProfile">#FAE56A</color>
+    <string name="app_name">challenge-api-meli</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <style name="Theme.Challengeapimeli" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/meli_yellow</item>
+        <item name="colorPrimaryVariant">@color/meli_yellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="textBlackBig">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">45sp</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+    <style name="textBlackErr">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="textBlackMedium">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="textBlackTitleProduct">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="textBlueSmall">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="textBlueTry">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="textBlueVerySmall">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="textBtnBlue">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">600</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textGray">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="textGrayErr">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="textGraySmall">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="textGrayVerySmall">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="textPrice">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="textSearch">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:hint">Buscar en Mercado Libre</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="textTitle">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+</resources>
