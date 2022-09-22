@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.challenge_api_meli.APIService.ProductService
@@ -20,6 +21,7 @@ import kotlinx.coroutines.launch
 class Favorites : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener, ClickItem {
     private lateinit var binding: ActivityFavoritesBinding
     private lateinit var adapter: FavoritesAdapter
+    val connection = NetworkManager()
     private var list: MutableList<ItemsResponse> = mutableListOf()
     private var sharedManager: SharedManager = SharedManager()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +33,14 @@ class Favorites : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLi
         val navView = binding.navView
         val toolbar = binding.ivOptionSidebar
         val header: View = navView.getHeaderView(0)
+        val viewErrors = this.binding.layoutE
+        val textTry = viewErrors.tvTryConnection
+        textTry.setOnClickListener {
+
+            Toast.makeText(this, "skdpksd´´", Toast.LENGTH_SHORT).show()
+
+
+        }
 
         setSupportActionBar(toolbar)
         navView.bringToFront()
@@ -55,18 +65,22 @@ class Favorites : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLi
     }
 
     private fun obtainMultiget(context: Context) {
-        CoroutineScope(Dispatchers.IO).launch {
-            val call = Utils.getRetrofit().create(ProductService::class.java)
-                .getMultiGet(sharedManager.getFavoriteItems(context))
-            val responseCall = call.body()
-            runOnUiThread {
-                if (call.isSuccessful) {
-                    responseCall?.let {
-                        list = it
+        if (connection.isConected(this)) {
+            CoroutineScope(Dispatchers.IO).launch {
+                val call = Utils.getRetrofit().create(ProductService::class.java)
+                    .getMultiGet(sharedManager.getFavoriteItems(context))
+                val responseCall = call.body()
+                runOnUiThread {
+                    if (call.isSuccessful) {
+                        responseCall?.let {
+                            list = it
+                        }
+                        initRecicler()
                     }
-                    initRecicler()
                 }
             }
+        } else {
+            Toast.makeText(this, "Sin conexión", Toast.LENGTH_SHORT).show()
         }
 
     }

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layoutE"
+    android:visibility="gone"
+    android:background="@color/colorgrayBgErrors"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/rlNoFound"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/style_icon_error_notfound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/search"
+            android:tint="@color/white"
+            tools:ignore="UseAppTint" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlWithoutConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/satelite"
+            android:layout_marginTop="20dp"
+            android:tint="@color/colorgray"
+            tools:ignore="UseAppTint" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llNoFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rlNoFound"
+        android:orientation="vertical">
+        <TextView
+            style="@style/textBlackErr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No encontramos publicaciones "
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="475dp" />
+        <TextView
+            style="@style/textGrayErr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Revisa que la plabra esté bien escrita"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="475dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llWithoutConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rlWithoutConnection"
+        android:orientation="vertical">
+        <TextView
+            style="@style/textBlackErr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Parece que no hay Internet!"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="475dp" />
+        <TextView
+            style="@style/textGrayErr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Revisa tu conexión para seguir navegando."
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="475dp" />
+
+        <TextView
+            android:id="@+id/tvTryConnection"
+            style="@style/textBlueTry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Reintentar"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="475dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llErrorDetail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorDanger"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:text="¡Parece que no hay internet!"
+            android:textColor="@color/colorgrayBgErrors"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+                android:paddingLeft="10dp"
+                android:text="Reintentar"
+                android:textStyle="bold"
+                android:textColor="@color/colorgrayBgErrors"
+                android:textSize="16dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

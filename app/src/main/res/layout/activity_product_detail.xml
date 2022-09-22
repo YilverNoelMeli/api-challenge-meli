@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ProductDetail">
 
+    <include
+        android:id="@+id/layoutE"
+        layout="@layout/errors"
+        >
+    </include>
+
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="0dp"

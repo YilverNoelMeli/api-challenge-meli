@@ -18,4 +18,6 @@
     <color name="blue">#3A86F7</color>
     <color name="blueButton">#3483FA</color>
     <color name="shadowColor">#B5000000</color>
+    <color name="colorgrayBgErrors">#EFF0F1</color>
+    <color name="colorDanger">#df4759</color>
 </resources>

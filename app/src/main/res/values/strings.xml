@@ -94,4 +94,24 @@
         <item name="android:textSize">14sp</item>
     </style>
 
+    <style name="textBlackErr">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorPrice</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="textGrayErr">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/colorgray</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="textBlueTry">
+        <item name="fontFamily">@font/proxima_nova_font</item>
+        <item name="fontWeight">400</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
 </resources>
